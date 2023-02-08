@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+
 
 class CalculatorTest {
 
@@ -19,7 +19,7 @@ class CalculatorTest {
 
     @Test
     void getName() {
-        assertEquals(expectedName, myCalculator.getName());
+        Assertions.assertEquals(expectedName, myCalculator.getName());
     }
 
     @Test
